@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		384BF92C1C054E8B00B833AA /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 384BF92B1C054E8B00B833AA /* Student.m */; };
+		384BF9341C059BEE00B833AA /* XHType.m in Sources */ = {isa = PBXBuildFile; fileRef = 384BF9311C059BEE00B833AA /* XHType.m */; };
+		384BF9381C059FA700B833AA /* NSObject+XHIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 384BF9371C059FA700B833AA /* NSObject+XHIvar.m */; };
+		384BF93B1C05A99200B833AA /* NSObject+XHKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 384BF93A1C05A99200B833AA /* NSObject+XHKeyValue.m */; };
+		3857E32D1C06D79C00BE693C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3857E32C1C06D79C00BE693C /* Person.m */; };
+		385B8D9E1C07E67C003A782E /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 385B8D9D1C07E67C003A782E /* Course.m */; };
 		38BF57781C045E4A00766E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF57771C045E4A00766E3C /* main.m */; };
 		38BF577B1C045E4A00766E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF577A1C045E4A00766E3C /* AppDelegate.m */; };
 		38BF577E1C045E4A00766E3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF577D1C045E4A00766E3C /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		38BF57861C045E4A00766E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BF57841C045E4A00766E3C /* LaunchScreen.storyboard */; };
 		38BF57911C045E4A00766E3C /* RunTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF57901C045E4A00766E3C /* RunTimeTestTests.m */; };
 		38BF579C1C045E4B00766E3C /* RunTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF579B1C045E4B00766E3C /* RunTimeTestUITests.m */; };
+		38BF57AE1C04654B00766E3C /* NSObject+XHCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF57AD1C04654B00766E3C /* NSObject+XHCoding.m */; };
+		38BF57B71C0467CF00766E3C /* XHIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BF57B61C0467CF00766E3C /* XHIvar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		384BF92A1C054E8B00B833AA /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		384BF92B1C054E8B00B833AA /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		384BF9301C059BEE00B833AA /* XHType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHType.h; sourceTree = "<group>"; };
+		384BF9311C059BEE00B833AA /* XHType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHType.m; sourceTree = "<group>"; };
+		384BF9361C059FA700B833AA /* NSObject+XHIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XHIvar.h"; sourceTree = "<group>"; };
+		384BF9371C059FA700B833AA /* NSObject+XHIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XHIvar.m"; sourceTree = "<group>"; };
+		384BF9391C05A99200B833AA /* NSObject+XHKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XHKeyValue.h"; sourceTree = "<group>"; };
+		384BF93A1C05A99200B833AA /* NSObject+XHKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XHKeyValue.m"; sourceTree = "<group>"; };
+		3857E32B1C06D79C00BE693C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3857E32C1C06D79C00BE693C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		385B8D9C1C07E67C003A782E /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		385B8D9D1C07E67C003A782E /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 		38BF57731C045E4A00766E3C /* RunTimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BF57771C045E4A00766E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38BF57791C045E4A00766E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,10 @@
 		38BF57971C045E4A00766E3C /* RunTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BF579B1C045E4B00766E3C /* RunTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeTestUITests.m; sourceTree = "<group>"; };
 		38BF579D1C045E4B00766E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BF57AC1C04654B00766E3C /* NSObject+XHCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XHCoding.h"; sourceTree = "<group>"; };
+		38BF57AD1C04654B00766E3C /* NSObject+XHCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XHCoding.m"; sourceTree = "<group>"; };
+		38BF57B51C0467CF00766E3C /* XHIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHIvar.h; sourceTree = "<group>"; };
+		38BF57B61C0467CF00766E3C /* XHIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHIvar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,16 @@
 		38BF57751C045E4A00766E3C /* RunTimeTest */ = {
 			isa = PBXGroup;
 			children = (
+				384BF9301C059BEE00B833AA /* XHType.h */,
+				384BF9311C059BEE00B833AA /* XHType.m */,
+				38BF57B51C0467CF00766E3C /* XHIvar.h */,
+				38BF57B61C0467CF00766E3C /* XHIvar.m */,
+				384BF9361C059FA700B833AA /* NSObject+XHIvar.h */,
+				384BF9371C059FA700B833AA /* NSObject+XHIvar.m */,
+				38BF57AC1C04654B00766E3C /* NSObject+XHCoding.h */,
+				38BF57AD1C04654B00766E3C /* NSObject+XHCoding.m */,
+				384BF9391C05A99200B833AA /* NSObject+XHKeyValue.h */,
+				384BF93A1C05A99200B833AA /* NSObject+XHKeyValue.m */,
 				38BF57791C045E4A00766E3C /* AppDelegate.h */,
 				38BF577A1C045E4A00766E3C /* AppDelegate.m */,
 				38BF577C1C045E4A00766E3C /* ViewController.h */,
@@ -110,6 +144,12 @@
 				38BF57841C045E4A00766E3C /* LaunchScreen.storyboard */,
 				38BF57871C045E4A00766E3C /* Info.plist */,
 				38BF57761C045E4A00766E3C /* Supporting Files */,
+				384BF92A1C054E8B00B833AA /* Student.h */,
+				384BF92B1C054E8B00B833AA /* Student.m */,
+				3857E32B1C06D79C00BE693C /* Person.h */,
+				3857E32C1C06D79C00BE693C /* Person.m */,
+				385B8D9C1C07E67C003A782E /* Course.h */,
+				385B8D9D1C07E67C003A782E /* Course.m */,
 			);
 			path = RunTimeTest;
 			sourceTree = "<group>";
@@ -274,8 +314,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				38BF577E1C045E4A00766E3C /* ViewController.m in Sources */,
+				384BF9341C059BEE00B833AA /* XHType.m in Sources */,
+				3857E32D1C06D79C00BE693C /* Person.m in Sources */,
+				385B8D9E1C07E67C003A782E /* Course.m in Sources */,
+				384BF9381C059FA700B833AA /* NSObject+XHIvar.m in Sources */,
+				38BF57AE1C04654B00766E3C /* NSObject+XHCoding.m in Sources */,
 				38BF577B1C045E4A00766E3C /* AppDelegate.m in Sources */,
+				38BF57B71C0467CF00766E3C /* XHIvar.m in Sources */,
 				38BF57781C045E4A00766E3C /* main.m in Sources */,
+				384BF92C1C054E8B00B833AA /* Student.m in Sources */,
+				384BF93B1C05A99200B833AA /* NSObject+XHKeyValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.RunTimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -425,10 +476,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.RunTimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -499,6 +553,7 @@
 				38BF57A21C045E4B00766E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38BF57A31C045E4B00766E3C /* Build configuration list for PBXNativeTarget "RunTimeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +562,7 @@
 				38BF57A51C045E4B00766E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38BF57A61C045E4B00766E3C /* Build configuration list for PBXNativeTarget "RunTimeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +571,7 @@
 				38BF57A81C045E4B00766E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
